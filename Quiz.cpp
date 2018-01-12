@@ -17,8 +17,11 @@ int main(){
 	KipasTangan.warna = "PINK";
 	AC.warna = "PUTIH";
 	
-	cout<<(KipasAngin.warna);
+	cout<<"Warna kipas angin nya "<<(KipasAngin.warna)<<endl;
 	KipasAngin.berputar("bzzzzz");
 	
-	
+}
+
+void kipas::berputar(string berhembus) {
+	cout<<"Bunyi hembusannya kaya ini nah..."<<berhembus<<endl;
 }
