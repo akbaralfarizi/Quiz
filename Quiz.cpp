@@ -3,6 +3,7 @@
 using namespace std;
 
 class kipas {
+	public:
 	void berputar(string berhembus);
 	int speed;
 	string warna;
@@ -16,5 +17,8 @@ int main(){
 	KipasTangan.warna = "PINK";
 	AC.warna = "PUTIH";
 	
-
+	cout<<(KipasAngin.warna);
+	KipasAngin.berputar("bzzzzz");
+	
+	
 }
